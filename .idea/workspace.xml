@@ -30,6 +30,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/tools/php73/php.exe" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\ICT-120-GJE\Exercice\Images" />
+      <recent name="C:\xampp\ICT-120-GJE\Exercice\javascript" />
+      <recent name="C:\xampp\ICT-120-GJE\Exercice\css" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -63,6 +70,8 @@
       <workItem from="1569506809131" duration="397000" />
       <workItem from="1569507242001" duration="75000" />
       <workItem from="1569507327035" duration="99000" />
+      <workItem from="1569848175048" duration="21000" />
+      <workItem from="1569848497907" duration="3351000" />
     </task>
     <servers />
   </component>
