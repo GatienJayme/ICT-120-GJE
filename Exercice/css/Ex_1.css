@@ -6,5 +6,11 @@ div {
 }
 .div1{
     background: blue;
-    text-decoration: overline;
+    text-decoration: line-through;
+}
+.div2{
+    font-family: "Calibri Light";
+}
+.div3{
+    font-family: "Arial";
 }
