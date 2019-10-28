@@ -31,6 +31,10 @@ function fdiv_6() {
 
 }
 
+function fdiv_6() {
+    let x = div6
+}
+
 function init() {
     div1.addEventListener("click", fdiv_1);
     div2.addEventListener("click", fdiv_2);
