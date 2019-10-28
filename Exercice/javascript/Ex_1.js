@@ -20,7 +20,7 @@ function fdiv_4() {
     if (chk1.checked == true && chk2.checked == true) {
         console.log("div4");
         div4.classList.add("div4")
-        div4.innerHTML = "YES";
+        div4.innerHTML = "YES"
     } else {
         console.log("NO");
     }
@@ -41,8 +41,35 @@ function fdiv_6() {
     txtInitials.value = tot.toUpperCase()
 }
 
-function fdiv_6() {
-    let x = div6
+function a_vos_marque() {
+    butavosmarques.disabled = true
+    butpret.disabled = false
+    butpartez.disabled = true
+    butpartez.hidden = false
+    img.src = "Images/marks.png"
+// <img src="Images/empty.png">
+}
+
+function pret() {
+    butavosmarques.hidden = true
+    butpret.disabled = true
+    butpartez.disabled = false
+    img.src = "Images/set.png"
+}
+
+function partez() {
+    butavosmarques.hidden = true
+    butpret.hidden = true
+    butpartez.disabled = true
+    img.src = "Images/go.png"
+    setTimeout(timer,3000)
+}
+
+function timer(){
+    butavosmarques.disabled = false
+    butpret.disabled = true
+    butpartez.hidden = true
+    img.src="Images/empty.png"
 }
 
 function init() {
@@ -54,4 +81,10 @@ function init() {
     chk2.addEventListener("click", fdiv_4);
     div5.addEventListener("click", fdiv_5);
     txtName.addEventListener("keyup", fdiv_6);
+    butavosmarques.addEventListener("click", a_vos_marque);
+    butpret.addEventListener("click", pret);
+    butpartez.addEventListener("click", partez);
+    butavosmarques.disabled = false
+    butpret.disabled = true
+    butpartez.hidden = true
 }
