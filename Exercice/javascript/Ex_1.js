@@ -47,7 +47,6 @@ function a_vos_marque() {
     butpartez.disabled = true
     butpartez.hidden = false
     img.src = "Images/marks.png"
-// <img src="Images/empty.png">
 }
 
 function pret() {

@@ -38,6 +38,7 @@
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.stylelint" value="" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -62,6 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572618985449</updated>
       <workItem from="1572618986543" duration="4866000" />
+      <workItem from="1572707304049" duration="8642000" />
     </task>
     <servers />
   </component>
@@ -73,7 +75,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
