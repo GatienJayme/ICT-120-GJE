@@ -38,6 +38,7 @@
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.stylelint" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -65,6 +66,8 @@
       <workItem from="1572618986543" duration="4866000" />
       <workItem from="1572707304049" duration="9452000" />
       <workItem from="1572716960710" duration="15000" />
+      <workItem from="1572862152146" duration="4000" />
+      <workItem from="1572870910397" duration="10345000" />
     </task>
     <servers />
   </component>

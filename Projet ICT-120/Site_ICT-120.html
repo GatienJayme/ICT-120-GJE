@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Voyage d'étude pour la filliaire d'informatique</title>
+
     <link rel="stylesheet" href="Projet/node_modules/bootstrap/dist/css/Site-120.css">
     <script src="Projet/node_modules/jquery/dist/jquery.js"></script>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
-            integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
-            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Projet/node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="Projet/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="Projet/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="Projet/node_modules/bootstrap/dist/js/Site-ICT-120.js"></script>
+
 </head>
 <body>
 
@@ -22,31 +20,21 @@
     </div>
 </div>
 
-<div id="menu" class="nav-bar border text-left">
-    <button class="btn btn-sm border col-1"
-            onclick=window.location.href='http://localhost:63342/Projet%20ICT-120/Site_ICT-120.html?_ijt=f2er0c1l9l6g0rrk7nk8v1b9gr';
-    >Menu
-    </button>
-    <button class="btn btn-sm border col-1"
-            onclick=window.location.href='http://localhost:63342/Projet%20ICT-120/Site_ICT-120.html?_ijt=f2er0c1l9l6g0rrk7nk8v1b9gr';
-    >Activités
-    </button>
-    <button class="btn btn-sm border col-1"
-            onclick=window.location.href='http://localhost:63342/Projet%20ICT-120/Site_ICT-120.html?_ijt=f2er0c1l9l6g0rrk7nk8v1b9gr';
-    >Prix
-    </button>
-    <button class="btn btn-sm border col-1"
-            onclick=window.location.href='http://localhost:63342/Projet%20ICT-120/Site_ICT-120.html?_ijt=f2er0c1l9l6g0rrk7nk8v1b9gr';
-    >Information
-    </button>
-    <button class="btn btn-sm border col-1"
-            onclick=window.location.href='http://localhost:63342/Projet%20ICT-120/Site_ICT-120.html?_ijt=f2er0c1l9l6g0rrk7nk8v1b9gr';
-    >Contact
-    </button>
+<div class="nav-bar border text-left">
+    <div id="cmdmenu" class="btn btn-sm border col-1">Menu
+    </div>
+    <div id="cmdactivite" class="btn btn-sm border col-1">Activités
+    </div>
+    <div id="cmdprix" class="btn btn-sm border col-1">Prix
+    </div>
+    <div id="cmdinformation" class="btn btn-sm border col-1">Information
+    </div>
+    <div id="cmdcontacte" class="btn btn-sm border col-1">Contact
+    </div>
 </div>
 
 
-<div id="bottom" class="row border h-100">
+<div id="homepage" class="row border h-100">
     <div id="media" class="container-fluid border w-25"><img id="pekin" src="Images/Pekin.png"/></div>
     <div id="content" class="container-fluid border w-75">
         <p>Pékin2 /pe.kɛ̃/3 Écouter (en chinois : 北京 ; pinyin : Běijīng /pe˨˩˦i.tɕi˥ŋ/4 Écouter, litt. « capitale du
@@ -101,11 +89,12 @@
             séisme officiellement annoncée à 7,8, mais certaines estimations avancent un chiffre de près de 800 000
             morts. Ce séisme a également donné lieu à des dommages à Pékin et dans d'autres villes de la région.</p>
     </div>
+    <p>CPNV Centre Professionel du Nord<br>
+        1450 Sainte-Croix<br>
+        numéro: 024 557 72 77</p>
 </div>
-<p>CPNV Centre Professionel du Nord<br>
-1450 Sainte-Croix<br>
-numéro: 024 557 72 77</p>
-<div id="activite" class="nav-bar border text-left">
+
+<div id="activite" class="nav-bar border text-left d-none">
     <div class="row">
         Activité 1
         <img src="Images/bouffe a manger.jpg" height="132.25" width="200"/></div>
@@ -124,26 +113,96 @@ numéro: 024 557 72 77</p>
     <div class="row">
         Activité 6
         <img src="Images/visite.jpg" height="200" width="300"/></div>
+    <p>CPNV Centre Professionel du Nord<br>
+        1450 Sainte-Croix<br>
+        numéro: 024 557 72 77</p>
 </div>
 
-<div id="prix" class="nav-bar border text-left">
-    <div class="row">
-        <img src="Images/bouffe a manger.jpg" height="132.25" width="200"/></div>
-    <div class="row">
-        <img src="Images/zoo.jpg" height="173.5" width="350"/></div>
-</div>
-
-</div>
-<div id="wfwf" class="row border h-100">
-    <div id="fsdfdsf" class="container-fluid border w-25">
-        <div id="ssf" class="container-fluid border w-75">
+<div id="sgsg" class="row border h-100">
+    <div id="jsp" class="container-fluid border w-25">
+        <div id="prix" class="container-fluid border w-75 d-none">
             <div class="row">
                 <img src="Images/bouffe a manger.jpg" height="132.25" width="200"/></div>
             <div class="row">
                 <img src="Images/zoo.jpg" height="173.5" width="350"/></div>
+
+            <p> La Spécialités de Pekin <br> Rue de Luis Part <br> 100001 Pekin <br> Hotel de Pekin<br> Prix 150 Yen</p>
+            <p> L'aquarium le plus grand du monde <br> Rue du Large <br> 102390 Pekin <br> Aquaruim de Pekin <br>
+                Prix 300 Yen</p>
+
+            <p>CPNV Centre Professionel du Nord<br>
+                1450 Sainte-Croix<br>
+                numéro: 024 557 72 77</p>
         </div>
     </div>
 </div>
 
+<div id="information" class="d-none">
+    <p><strong> Information sur les personnes presente </strong> <br>
+        Mounir Fiaux <br>
+        Gatien Jayme <br>
+        Xavier Carrel <br>
+        Samuel Roland <br>
+        David Roulet <br>
+        Christopher Pardo <br>
+        Luis Pedro Fernandez Pinheiro <br>
+        Dmitri Meili <br>
+        Benoit Pierrehumbert <br>
+        Thomas Grossman <br>
+        Fabien Masson <br>
+        Marwan Alhelo <br>
+        Kevin Vaucher <br>
+        Pedro Pinto <br>
+        Pascal Benzonana <br>
+        Simon Cuany <br>
+        Altin Zili <br>
+        Miguel Soares <br>
+        Johnny Vaca</p>
+
+    <p><strong>Information sur le lieu</strong> <br>
+        La capitale chinoise est confrontée à de nombreux problèmes environnementaux. Il s'agit notamment de la
+        pollution excessive des rivières, des problèmes dans l'approvisionnement en eau potable, de la forte pollution
+        atmosphérique, de l'insuffisance des transports publics et de l'accroissement de la circulation automobile.
+        Depuis le début des années 1990, le gouvernement fait davantage d'efforts pour la protection de l'environnement.
+        Il a ainsi instauré des lois favorisant le recyclage, normalisant l'évaluation d'impact environnemental,
+        l'efficacité énergétique et monitorant la pollution atmosphérique.
+
+        Depuis le 1er janvier 2003, seules les voitures personnelles répondant à la norme Euro 2 pouvaient être
+        enregistrées à Pékin. De nombreux autobus à moteur diesel ont été remplacés par des véhicules roulant au gaz
+        naturel. En outre, le nombre de trolleybus électriques a atteint un total de 18 000 bus à Pékin. Pour le
+        transport ferroviaire, des prolongations du réseau de métro ont été entreprises. La pollution de l'air dans la
+        métropole est plus grave. La concentration élevée de particules et les émissions de dioxyde de carbone sont un
+        problème majeur.
+
+        La qualité de l'air, selon l'OMS, reste l'une des pires au monde. Les raisons en sont les nombreuses usines et
+        centrales électriques en périphérie de la ville, ainsi que le nombre des transports et des ménages utilisant des
+        carburants ou combustibles polluants. L'urbanisation rapide, la forte augmentation du volume du trafic et de la
+        concentration d'industries dans l'agglomération ont conduit à pollution élevée. Le smog, les NOx et ses sulfates
+        y constituent une menace sérieuse pour la santé publique de plus de 400 millions de personnes en Chine du Nord,
+        les maladies respiratoires y étant de plus en plus importantes, surtout dans la capitale10.
+
+        Pour améliorer la qualité de l'air, des règles d'émission plus strictes ont été adoptées. Depuis le 1er mars
+        2008, toutes les voitures neuves doivent répondre à la norme d'émission Euro 4, qui est obligatoire en Europe
+        pour les voitures neuves depuis janvier 2005 (Euro 5 est depuis entrée en vigueur en Europe en septembre 2009),
+        mais le scandale Volkswagen a montré que de nombreux véhicules récents polluaient en situation réelle plus
+        qu'annoncé par le fabricant et bien plus que sur les bancs d'essai.
+    </p>
+    <p>CPNV Centre Professionel du Nord<br>
+        1450 Sainte-Croix<br>
+        numéro: 024 557 72 77</p>
+</div>
+
+<div id="contacte" class="d-none">
+    Xavier Carrel Responsable du voaygae d'etude 079 / 412 54 48 <br>
+    Pascal Benzonana Responsable du voaygae d'etude 079 / 246 10 96 <br>
+    Jean Jacques Accompagnants 079 / 551 95 13 <br>
+    Patrick Charc Accompagnants 079 / 539 39 96 <br> <br>
+    Claude Egger Doyen de la fillaire inforamtique 079 / 139 98 12 <br>
+    Pour toutes autres informations <br> <br>
+
+    <p>CPNV Centre Professionel du Nord<br>
+        1450 Sainte-Croix<br>
+        numéro: 024 557 72 77</p>
+</div>
 </body>
 </html>
