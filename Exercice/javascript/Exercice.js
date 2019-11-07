@@ -27,8 +27,7 @@ function fdiv_4() {
 }
 
 function fdiv_5() {
-    div5.classList.remove()
-    div5.innerHTML = ""
+     document.getElementById("div5").remove();
 }
 
 function fdiv_6() {
