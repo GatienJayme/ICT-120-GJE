@@ -1,0 +1,53 @@
+body {
+    /* changement de police en arial */
+    font-family: Arial;
+}
+
+#endroit gauche {
+    /* le logo cpnv soit a gauche*/
+    width: 50%;
+}
+
+#endroit droite {
+    /* le texte titre soit a droite*/
+    size: 48px;
+}
+
+/* menu au centre*/
+#menu {
+    text-align: center;
+}
+
+/* largeur de l'image pekin*/
+#pekin {
+    width: 400px;
+}
+
+/* décaler le texte de l'image*/
+#media {
+    display: inline;
+    padding: 0px;
+}
+
+/* taille de toutes les images*/
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* taille de référence du cpnv*/
+.cpnv {
+    font-size: 22px;
+}
+
+/* taille du contacte*/
+#tc {
+    font-size: 20px;
+}
+/* */
+.appuyer {
+     background-color: #b8daff;
+ }
+#posnavbar{
+
+}
