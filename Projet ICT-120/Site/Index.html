@@ -1,9 +1,16 @@
+<!--Programme: ICT-120-Site_Voyage_d'etude_html
+    Autheur: Gatien Jayme
+    Date: 10.11.2019
+    Version: 1.0-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!--Le titre de mon onglet de page-->
     <title>Voyage d'étude pour la filliaire d'informatique</title>
 
+    <!--Toutes les sources dont j'ai besoin pour mon code-->
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
@@ -13,6 +20,7 @@
 
 </head>
 <body>
+<!--Mon logo du cpnv et mon titre dans mon site-->
 <div class="container-fluid">
     <div id="endroit gauche" class="row">
         <img src="Images/logo2lignes_vert.png" class="col-lg-2 col-sm-5"/>
@@ -22,7 +30,8 @@
         </div>
     </div>
 
-    <div id="posnavbar" class="nav-bar border text-left">
+    <!--Ma barre de navigation dans mon site-->
+    <div class="nav-bar border text-left">
         <div id="cmdmenu" class="btn btn-sm border col-lg-1" title="Le Menu principal">Menu
         </div>
         <div id="cmdactivite" class="btn btn-sm border col-lg-1" title="Les activités intressantes à faire">Activités
@@ -34,17 +43,19 @@
         </div>
         <div id="cmdcontacte" class="btn btn-sm border col-lg-1" title="Les contact à appeler en cas de problèmes">Aide
         </div>
-        <div id="cmdparticipants" class="btn btn-sm border col-lg-2 col-offset-8" title="Le Menu principal">Participants
+        <div id="cmdparticipants" class="btn btn-sm border col-lg-1 col-offset-2">
+            Participants
         </div>
-        <div id="cmdhebergement" class="btn btn-sm border col-lg-2 col-offset-8"
-             title="Les activités intressantes à faire">Hébergement
+        <div id="cmdhebergement" class="btn btn-sm border col-lg-1 col-offset-2">
+            Hébergement
         </div>
-        <div id="cmdtransport" class="btn btn-sm border col-lg-2 col-offset-8" title="Les prix pour deux des activités">
+        <div id="cmdtransport" class="btn btn-sm border col-lg-1 col-offset-2">
             Transport
         </div>
     </div>
 
-    <div id="homepage" class="row border h-100">
+    <!--Ma page de menu dans mon site-->
+    <div id="homepage" class="row border h-100 col-lg-12 col-sm-12">
         <div id="media" class="container-fluid border w-25"><img id="pekin" src="Images/Pekin.png"
                                                                  title="Plusieurs belles visite à faire"/></div>
         <div id="content" class="container-fluid border w-75">
@@ -135,6 +146,7 @@
             numéro: 024 557 72 77</p>
     </div>
 
+    <!--Ma page activite dans mon site-->
     <div id="activite" class="nav-bar border text-left d-none">
         <div class="row no-gutters">
             <div class="col-lg-4 col-sm-3">
@@ -162,6 +174,7 @@
             numéro: 024 557 72 77</p>
     </div>
 
+    <!--Ma page prix dans mon site-->
     <div id="prix" class="d-none">
         <div class="row">
             <div class="col-lg-6">
@@ -181,6 +194,8 @@
             1450 Sainte-Croix<br>
             numéro: 024 557 72 77</p>
     </div>
+
+    <!--Ma page information dans mon site-->
     <div id="information" class="d-none">
         <div class="row">
             <div class="col-lg-6">
@@ -270,7 +285,7 @@
             numéro: 024 557 72 77</p>
     </div>
 
-
+    <!--Ma page aide dans mon site-->
     <div id="contacte" class="d-none">
         <p>
         <div class="row">
@@ -279,7 +294,7 @@
             </div>
         </div>
         <div id="tc" class="row">
-            <div class="col-lg-4 offset-lg-1">
+            <div class="col-lg-5 offset-lg-1">
                 Xavier Carrel Responsable du voyage d'etude 079 / 412 54 48 <br> <br>
                 Pascal Benzonana Responsable du voyage d'etude 079 / 246 10 96 <br> <br>
                 Jean Jacques Accompagnants 079 / 551 95 13 <br> <br>
