@@ -20,7 +20,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/ICT-(Vide)/Evaluation" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -48,6 +48,8 @@
       <option name="presentableId" value="Default" />
       <updated>1573227943321</updated>
       <workItem from="1573227944412" duration="869000" />
+      <workItem from="1573228866379" duration="16000" />
+      <workItem from="1573801927075" duration="492000" />
     </task>
     <servers />
   </component>
@@ -59,7 +61,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
