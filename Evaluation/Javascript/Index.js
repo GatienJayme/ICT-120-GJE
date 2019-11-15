@@ -5,22 +5,22 @@ Version: 1.0 */
 
 document.addEventListener("DOMContentLoaded", go);
 
-// fond rouge de prenom
+// appelle fond rouge de prenom
 function classprenom() {
     prenom.classList.add("prenom")
 }
 
-// fond rouge de nom
+// appelle fond rouge de nom
 function classnom() {
     nom.classList.add("nom")
 }
 
-// fond rouge de mdp
+// appelle fond rouge de mdp
 function classmdp() {
     mdp.classList.add("mdp")
 }
 
-// fond rouge de mdpconf
+// appelle fond rouge de mdpconf
 function classmdpconf() {
     mdpconf.classList.add("mdpconf")
 }

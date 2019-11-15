@@ -7,6 +7,7 @@ Version: 1.0 -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!--Titre de la page-->
     <title>Inscription au club de tchoukball</title>
     <script src="Javascript/Index.js"></script>
     <link rel="stylesheet" href="CSS/Index.css">
@@ -15,10 +16,15 @@ Version: 1.0 -->
 <body>
     <h2>Inscription au tchoukball club Ste-Croix</h2>
     <form action="motivation.html">
+        <!--label prenom-->
         <label>Prénom</label><input id="txt1" type="text" name="txtFirstName"><div class="prenom d-none">Invalide: trop court</div>
+        <!--label nom-->
         <label id="lbl2">Nom</label><input type="text" name="txtLastName"><div class="nom d-none">Invalide: trop court</div>
+        <!--label mdp-->
         <label id="lbl3">Mot de passe</label><input type="password"><div class="mdp d-none">Invalide: minimum 6 caractères</div>
+        <!--label mdpconf-->
         <label id="lbl4">Confirmation</label><input type="password"><div class="mdpconf d-none">Invalide: différent</div>
+        <!--bouton envoyer-->
         <div id="envoyer"><input type="submit" value="Envoyer"></div>
     </form>
 </body>
