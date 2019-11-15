@@ -1,0 +1,28 @@
+/* Program: ICT-120-Inscription css
+Author: Gatien Jayme
+Date: 15.11.2019
+Version: 1.0 */
+
+.prenom{
+    background-color: red;
+}
+
+.nom{
+    background-color: red;
+}
+
+.mdp{
+    background-color: red;
+}
+
+.mdpconf{
+    background-color: red;
+}
+
+.prenom{
+
+}
+
+#restedelettre{
+    display: none;
+}
