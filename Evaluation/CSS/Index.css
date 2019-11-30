@@ -1,0 +1,29 @@
+/* Program: ICT-120-Inscription css
+Author: Gatien Jayme
+Date: 15.11.2019
+Version: 1.0 */
+
+/* fond rouge de prenom */
+.prenom{
+    background-color: red;
+}
+
+/* fond rouge de nom */
+.nom{
+    background-color: red;
+}
+
+/* fond rouge de mdp */
+.mdp{
+    background-color: red;
+}
+
+/* fond rouge de mdpconf */
+.mdpconf{
+    background-color: red;
+}
+
+/* j'avais tout cacher mais on a pas le droit au display none du coup j'ai tout effacer */
+#restedelettre{
+    display: none;
+}
